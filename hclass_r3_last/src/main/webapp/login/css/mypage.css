@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: auto;
+	border: none;
+}
+
+body {
+	font-size: 14pt;
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+.wrapper {
+	width: 500px;
+	padding: 20px;
+	background-color: #fff;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	margin: 100px auto 120px auto;
+}
+
+.wrapper>h2 {
+	font-size: 24pt;
+	color: #6A24FE;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+button {
+	background-color: rgb(0,0,0,0);
+	cursor: pointer;
+}
+
+img{
+	width: 24px;
+}
+
+.userinfo {
+	display: table;
+	margin: 20px auto;
+}
+
+.userinfo div {
+	display: table-row;
+}
+
+.userinfo .head {
+    display: table-cell;
+    padding: 10px;
+    font-weight: bold;
+    text-align: justify;
+    vertical-align: middle;
+    width: 40%;
+    height: 100%; /* 콘텐츠 영역을 차지하도록 높이 설정 */
+}
+
+.userinfo .head:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.userinfo .body {
+	display: table-cell;
+	padding: 10px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	width: 60%;
+	color: #333;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.buttons button {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #6A24FE;
+	color: #fff;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+	background-color: #5036B2;
+}

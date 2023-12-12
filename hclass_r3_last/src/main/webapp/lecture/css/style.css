@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: auto;
+	border: none;
+}
+
+body {
+	font-size: 14px;
+}
+
+.wrapper {
+	width: 400px;
+	padding: 40px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	margin-top: 100px;
+}
+
+.wrapper>h2 {
+	font-size: 24px;
+	color: #6A24FE;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.form>input {
+	width: 100%;
+	height: 48px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+	border-radius: 6px;
+	background-color: #F8F8F8;
+}
+
+textarea{
+	width: 100%;
+	height: 48px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+	border-radius: 6px;
+	background-color: #F8F8F8;
+}
+
+.form>input::placeholder,
+.phone-box input::placeholder,
+.birth-box input::placeholder,
+.address-box input::placeholder,
+.idcheck-box input::placeholder {
+	color: #D2D2D2;
+}
+
+#loginsubmit {
+	color: #fff;
+	font-size: 16px;
+	background-color: #6A24FE;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#joinsubmit {
+	color: #fff;
+	font-size: 16px;
+	background-color: #6A24FE;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.form>input[type="button"] {
+    color: #606060;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 기존의 checkbox를 없애고 label를 이용하여  디자인 시안과 동일하게 변경시켜줍니다 . */
+
+.form>input[type="checkbox"] {
+	display: none;
+}
+
+.form>label {
+	color: #999999;
+}
+
+.form input[type="checkbox"]+label {
+	cursor: pointer;
+	padding-left: 26px;
+}
+
+.phone-box{
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.phone-box input {
+	width: 70%;
+	height: 48px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-right: 8px;
+	border-radius: 6px;
+	background-color: #F8F8F8;
+}
+
+.phone-box button {
+	width: 30%;
+	height: 48px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: rgb(192, 192, 192);
+}
+.idcheck-box{
+	display: flex;
+	margin-bottom: 16px;
+}
+
+#num{
+	width: 30%;
+	height: 48px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-right: 4px;
+	border-radius: 6px;
+	background-color: #F8F8F8;
+	
+}
+#subs{
+	color: white;
+	width: 49%;
+	height: 48px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: #6A24FE;
+	
+}
+
+
+
+#letter{
+	color: white;
+	background-color: #6A24FE;
+	
+}
+
+#idcheck1 {
+	height: 48px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-right: 8px;
+	border-radius: 6px;
+	background-color: #F8F8F8;
+}
+
+#idcheck2 {
+	height: 48px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: rgb(192, 192, 192);
+	cursor: pointer;
+}
+
+.birth-box{
+	display: flex;
+	margin-bottom: 16px;
+}
+
+#birth-box1 {
+	width: 110%;
+	height: 48px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: #F8F8F8;
+}
+
+.birth-box2 input {
+	width: 30%;
+	height: 48px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: #F8F8F8;
+	text-align: center;
+}
+
+.address-box{
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.address-box input[type="text"] {
+	width: 60%;
+	height: 48px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-right: 8px;
+	border-radius: 6px;
+	background-color: #F8F8F8;
+}
+
+.address-box input[type="button"] {
+	width: 40%;
+	height: 48px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: rgb(192, 192, 192);
+	cursor: pointer;
+}

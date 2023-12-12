@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+textarea{
+	resize: none;
+	width: 500px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 1.5px #000000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.eidtReview {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 1.5px #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+
+.button {
+	
+    width:100px;
+    background-color: #8080ff;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
